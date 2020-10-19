@@ -1,0 +1,23 @@
+{
+  "displayName": "Tweens",
+  "name": "com.greatclock.tweens",
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "description": "Tween system.",
+  "type": "library",
+  "dependencies": {
+    "com.greatclock.utils": "1.0.0"
+  },
+  "keywords": [
+    "tween",
+    "ease"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatclock/tweens.git"
+  },
+  "author": {
+    "name": "greatclock",
+    "email": "thegreatclock@hotmail.com"
+  }
+}

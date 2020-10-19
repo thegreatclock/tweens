@@ -1,0 +1,14 @@
+{
+    "name": "GreatClock.Tweens",
+    "references": [
+        "GreatClock.Utils.Tools"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
