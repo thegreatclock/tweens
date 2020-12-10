@@ -101,11 +101,11 @@ namespace GreatClock.Common.Tweens {
 		}
 
 		public void StopGroup(string group, bool reset) {
-			for (int i = 0, imax = mTweeners.Length; i < imax; i++) {
+			for (int i = 0, imax = m_Tweens.Length; i < imax; i++) {
 				TweenData tween = m_Tweens[i];
 				if (string.IsNullOrEmpty(tween.group)) { continue; }
 				if (group != tween.group) { continue; }
-				TweenerBase tweener = mTweeners[i];
+				TweenerBase tweener = mTweeners[(int)tween.tweenType];
 				if (tweener != null) {
 					tweener.Stop();
 					if (reset) { tweener.Reset(); }
